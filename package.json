@@ -8,8 +8,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "http-server": "^14.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulosk8/espenotes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paulosk8/espenotes/issues"
+  },
+  "homepage": "https://github.com/paulosk8/espenotes#readme",
+  "description": ""
 }

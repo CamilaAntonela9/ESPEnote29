@@ -43,6 +43,53 @@
   top: 56px;
   background: white;
   text-align: center;
-  transform: translateY(0);
+  transform: translateY(100vh);
   transition: transform 0.5s;
+}
+
+.svg--container {
+  position: relative;
+}
+.svg--container div {
+  height: 210px;
+  background: var(--dark-primary) url("../img/espe.jpg");
+  background-position: bottom;
+  background-size: cover;
+  object-fit: cover;
+  color: var(--white);
+}
+.svg--container svg {
+  position: absolute;
+  bottom: 0;
+  background: transparent;
+}
+#main .page-index {
+  background: var(--dark-primary);
+  height: var(--height);
+}
+.page--initial {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  opacity: 0.87;
+  color: var(--gray);
+  font-size: 1rem;
+  line-height: 18px;
+  font-weight: 400;
+}
+.page--initial i {
+  font-size: 4rem;
+  color: var(--white);
+  min-width: 70px;
+  padding: 10px;
+  text-align: center;
+}
+.page--initial .description {
+  color: var(--white);
+  border-radius: 7px;
+  border: 1px solid rgba(255, 201, 71, 0.5);
+  margin: 10px 10px;
+  padding: 10px;
+  width: calc(var(--width) - 20px);
 }
